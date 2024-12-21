@@ -1,0 +1,4 @@
+{
+    "html.validate.scripts": true,
+    "npm.enableRunFromFolder": true
+}
