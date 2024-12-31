@@ -4,6 +4,10 @@ import json
 
 app = FastAPI()
 
+@app.get("/")
+async def read_root():
+    return {"message": "WebSocket server is running"}
+    
 # List to store connected WebSocket clients
 clients: List[WebSocket] = []
 
