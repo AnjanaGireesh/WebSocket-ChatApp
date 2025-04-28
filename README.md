@@ -58,6 +58,9 @@ A simple real-time chat application built using Python's FastAPI and WebSocket t
 
 7. Open index.html in your browser to start the chat application.
 
+# WebSocket Chat App
+Updated README to trigger GitHub Actions 🚀
+
 #### Directory Structure
 
 .
