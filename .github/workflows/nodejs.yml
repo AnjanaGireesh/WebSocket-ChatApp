@@ -18,6 +18,8 @@ jobs:
 
     - name: Install dependencies
       run: npm install
+      working-directory: ./ # 🛠️ THIS LINE IS IMPORTANT
 
-    - name: Run the app (optional for test)
-      run: npm run start
+    - name: Check Node.js version
+      run: node --version
+      working-directory: ./
